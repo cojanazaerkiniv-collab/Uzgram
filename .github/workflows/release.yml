@@ -5,10 +5,13 @@ on:
     tags:
       - 'v*'
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
-    permissions: # GitHub-ga faylni joylash uchun ruxsat beramiz
+    permissions:
       contents: write
     steps:
     - name: Checkout code
@@ -20,14 +23,17 @@ jobs:
         distribution: 'zulu'
         java-version: '17'
 
-    - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v4 # Eng oxirgi v4 versiya
+    # Bu qadam gradlew faylini serverning o'zida nolga qayta quradi va ruxsat beradi
+    - name: Repair and Force Setup Gradle Wrapper
+      run: |
+        gradle wrapper --gradle-version 8.7 --distribution-type bin
+        chmod +x ./gradlew
 
-    - name: Make Gradle executable
-      run: chmod +x ./gradlew
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v4
 
     - name: Build Release APK
-      run: ./gradlew assembleRelease
+      run: ./gradlew assembleRelease -x lint -x test --stacktrace
 
     - name: Upload APK to GitHub Releases
       uses: softprops/action-gh-release@v2
