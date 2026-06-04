@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UzGram Brand Colors -->
+    <color name="uz_blue">#2AABEE</color>
+    <color name="uz_blue_deep">#229ED9</color>
+    <color name="uz_blue_lite">#E8F5FC</color>
+    <color name="uz_dark_bg">#0E0E0E</color>
+    <color name="uz_dark_surface">#1C1C1C</color>
+    <color name="uz_dark_surface2">#262626</color>
+    <color name="uz_success">#4CAF50</color>
+    <color name="uz_error">#FF3B30</color>
+    <color name="uz_warning">#FF9500</color>
+    <color name="uz_online">#4CAF50</color>
+</resources>
