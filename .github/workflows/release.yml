@@ -31,7 +31,7 @@ jobs:
 
     - name: Repair and Force Setup Gradle Wrapper
       run: |
-        gradle wrapper --gradle-version 8.9 --distribution-type bin
+        gradle wrapper --gradle-version 10.2.0 --distribution-type bin
         chmod +x ./gradlew
 
     - name: Setup Gradle
