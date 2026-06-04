@@ -23,7 +23,7 @@ bouncycastle = "1.70"
 webrtc = "1.3.10"
 exoplayer = "1.5.1"
 camerax = "1.4.1"
-mlkit = "16.0.0"
+mlkit = "17.0.0"
 biometric = "1.1.0"
 workmanager = "2.10.0"
 paging = "3.3.6"
@@ -71,7 +71,7 @@ camerax-core = { group = "androidx.camera", name = "camera-core", version.ref = 
 camerax-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camerax" }
 camerax-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax" }
 camerax-view = { group = "androidx.camera", name = "camera-view", version.ref = "camerax" }
-mlkit-segmentation = { group = "com.google.mlkit", name = "subject-segmentation", version.ref = "mlkit" }
+mlkit-segmentation = { group = "com.google.mlkit", name = "selfie-segmentation", version.ref = "mlkit" }
 biometric = { group = "androidx.biometric", name = "biometric-ktx", version.ref = "biometric" }
 workmanager = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workmanager" }
 paging-runtime = { group = "androidx.paging", name = "paging-runtime", version.ref = "paging" }
