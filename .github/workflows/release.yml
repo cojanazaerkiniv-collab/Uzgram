@@ -3,24 +3,33 @@ name: Build & Publish Release APK
 on:
   push:
     tags:
-      - '*'
+      - 'v*' # Faqat v1.0.0 kabi versiya kiritilganda ishlaydi
 
 jobs:
-  Gradle:
+  build-and-release:
     runs-on: ubuntu-latest
     steps:
-    - name: checkout code
-      uses: actions/checkout@v2
-    - name: setup jdk
-      uses: actions/setup-java@v1
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup JDK 17 for Kotlin 2.0
+      uses: actions/setup-java@v4
       with:
-        java-version: 11
+        distribution: 'zulu'
+        java-version: '17' # Sizning loyihangiz talabi
+
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v3
+
     - name: Make Gradle executable
       run: chmod +x ./gradlew
+
     - name: Build Release APK
       run: ./gradlew assembleRelease
+
     - name: Releasing using Hub
       uses: sangatdesai/release-apk@main
       env:
-       GITHUB_TOKEN: ${{ secrets.TOKEN }}
-       APP_FOLDER: app
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        APP_FOLDER: app
+
