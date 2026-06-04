@@ -29,10 +29,8 @@ jobs:
         echo "android.useAndroidX=true" >> gradle.properties
         echo "android.enableJetifier=true" >> gradle.properties
 
-    - name: Repair and Force Setup Gradle Wrapper
-      run: |
-        gradle wrapper --gradle-version 10.2.0 --distribution-type bin
-        chmod +x ./gradlew
+    - name: Make Gradle Wrapper Executable
+      run: chmod +x ./gradlew
 
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v4
