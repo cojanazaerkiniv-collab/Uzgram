@@ -22,8 +22,8 @@ jobs:
       with:
         distribution: 'zulu'
         java-version: '17'
+        cache: gradle
 
-    # Bu qadam AndroidX flaglarini avtomatik loyihaga qo'shib qo'yadi
     - name: Configure AndroidX Flags
       run: |
         echo "android.useAndroidX=true" >> gradle.properties
@@ -36,10 +36,15 @@ jobs:
       uses: gradle/actions/setup-gradle@v4
 
     - name: Verify Java Installation
-      run: java -version && echo "JAVA_HOME=$JAVA_HOME"
+      run: |
+        java -version
+        echo "JAVA_HOME: $JAVA_HOME"
+        echo "PATH: $PATH"
 
     - name: Build Release APK
       run: ./gradlew assembleRelease -x lint -x test --stacktrace
+      env:
+        JAVA_HOME: ${{ env.JAVA_HOME }}
 
     - name: Upload APK to GitHub Releases
       uses: softprops/action-gh-release@v2
