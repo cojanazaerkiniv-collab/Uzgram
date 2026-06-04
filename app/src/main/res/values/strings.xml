@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- UzGram — Asosiy til: O'zbek -->
+<resources>
+    <string name="app_name">UzGram</string>
+    <string name="app_tagline">Erkin ulanish</string>
+
+    <!-- Auth -->
+    <string name="login_title">Xush kelibsiz</string>
+    <string name="login_subtitle">UzGramga kiring</string>
+    <string name="register_title">Hisob yarating</string>
+    <string name="register_subtitle">UzGramga qo\'shiling — bu bepul</string>
+    <string name="email_hint">Elektron pochta</string>
+    <string name="password_hint">Parol</string>
+    <string name="confirm_password_hint">Parolni tasdiqlang</string>
+    <string name="display_name_hint">Isminiz</string>
+    <string name="username_hint">Foydalanuvchi nomi</string>
+    <string name="bio_hint">O\'zingiz haqida (ixtiyoriy)</string>
+    <string name="sign_in">Kirish</string>
+    <string name="sign_up">Ro\'yxatdan o\'tish</string>
+    <string name="sign_out">Chiqish</string>
+    <string name="forgot_password">Parolni unutdingizmi?</string>
+    <string name="continue_with_google">Google orqali davom etish</string>
+    <string name="have_account">Hisobingiz bormi? </string>
+    <string name="no_account">Hisobingiz yo\'qmi? </string>
+    <string name="step_of">%1$d / %2$d qadam</string>
+    <string name="continue_btn">Davom etish</string>
+    <string name="create_account_btn">Hisob yaratish</string>
+    <string name="verify_email_title">Emailingizni tasdiqlang</string>
+    <string name="verify_email_subtitle">%s manziliga 6 xonali kod yuborildi</string>
+    <string name="resend_code">Kodni qayta yuborish</string>
+    <string name="resend_in">%d soniyadan keyin qayta yuborish</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Asosiy</string>
+    <string name="nav_chats">Xabarlar</string>
+    <string name="nav_discover">Izlash</string>
+    <string name="nav_calls">Qo\'ng\'iroqlar</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Home -->
+    <string name="stories_title">Hikoyalar</string>
+    <string name="add_story">Hikoya qo\'shish</string>
+    <string name="your_story">Sizning hikoyangiz</string>
+    <string name="online_contacts">Onlayn kontaktlar</string>
+
+    <!-- Chat -->
+    <string name="new_chat">Yangi xabar</string>
+    <string name="new_group">Yangi guruh</string>
+    <string name="new_channel">Yangi kanal</string>
+    <string name="search_chats">Xabarlarni qidiring…</string>
+    <string name="type_message">Xabar yozing…</string>
+    <string name="send">Yuborish</string>
+    <string name="record_voice">Ovozli xabar yozish</string>
+    <string name="attach_file">Fayl biriktirish</string>
+    <string name="photo">Rasm</string>
+    <string name="video">Video</string>
+    <string name="file">Fayl</string>
+    <string name="location">Joylashuv</string>
+    <string name="contact_card">Kontakt</string>
+    <string name="poll">So\'rovnoma</string>
+    <string name="typing">yozmoqda…</string>
+    <string name="online">onlayn</string>
+    <string name="last_seen_recently">yaqinda ko\'rilgan</string>
+    <string name="last_seen_at">%s da ko\'rilgan</string>
+    <string name="no_messages">Xabarlar yo\'q</string>
+    <string name="no_chats">Suhbatlar yo\'q</string>
+    <string name="no_chats_subtitle">Do\'stlaringiz bilan bog\'lanish uchun yangi suhbat boshlang</string>
+    <string name="start_chat">Suhbat boshlash</string>
+    <string name="archived">Arxivlangan</string>
+    <string name="pinned">Mahkamlangan</string>
+    <string name="muted">Ovozsiz</string>
+    <string name="draft">Qoralama</string>
+    <string name="unread_messages">o\'qilmagan xabar</string>
+    <string name="all_chats">Barchasi</string>
+    <string name="unread_filter">O\'qilmagan</string>
+    <string name="channels_filter">Kanallar</string>
+    <string name="groups_filter">Guruhlar</string>
+
+    <!-- Messages -->
+    <string name="message_edited">tahrirlangan</string>
+    <string name="message_pinned">Xabar mahkamlandi</string>
+    <string name="reply_to">Javob berish</string>
+    <string name="reply">Javob</string>
+    <string name="copy">Nusxa olish</string>
+    <string name="copy_text">Matnni nusxa olish</string>
+    <string name="edit">Tahrirlash</string>
+    <string name="delete">O\'chirish</string>
+    <string name="delete_for_me">Faqat o\'zim uchun</string>
+    <string name="delete_for_everyone">Hammaga o\'chirish</string>
+    <string name="forward">Yo\'naltirish</string>
+    <string name="pin">Mahkamlash</string>
+    <string name="unpin">Mahkamlashni bekor qilish</string>
+    <string name="react">Reaktsiya</string>
+    <string name="star_message">Yulduzchali xabar</string>
+    <string name="report">Shikoyat qilish</string>
+    <string name="translate">Tarjima qilish</string>
+    <string name="select">Tanlash</string>
+    <string name="sending">Yuborilmoqda…</string>
+    <string name="delivered">Yetkazildi</string>
+    <string name="read">O\'qildi</string>
+    <string name="failed_to_send">Yuborib bo\'lmadi</string>
+    <string name="retry">Qayta urinish</string>
+    <string name="schedule">Rejalashtirish</string>
+    <string name="scheduled_messages">Rejalashtirilgan xabarlar</string>
+    <string name="send_when_online">Onlayn bo\'lganda yuborish</string>
+    <string name="voice_message">Ovozli xabar</string>
+    <string name="video_message">Video xabar</string>
+
+    <!-- Calls -->
+    <string name="voice_call">Ovozli qo\'ng\'iroq</string>
+    <string name="video_call">Video qo\'ng\'iroq</string>
+    <string name="group_call">Guruh qo\'ng\'iroqi</string>
+    <string name="incoming_call">Kiruvchi qo\'ng\'iroq</string>
+    <string name="outgoing_call">Chiquvchi qo\'ng\'iroq</string>
+    <string name="missed_call">O\'tkazib yuborilgan qo\'ng\'iroq</string>
+    <string name="call_in_progress">Qo\'ng\'iroq davom etmoqda…</string>
+    <string name="call_connecting">Ulanmoqda…</string>
+    <string name="accept">Qabul qilish</string>
+    <string name="decline">Rad etish</string>
+    <string name="end_call">Qo\'ng\'iroqni tugatish</string>
+    <string name="mute">Ovozni o\'chirish</string>
+    <string name="unmute">Ovozni yoqish</string>
+    <string name="speaker">Dinamik</string>
+    <string name="flip_camera">Kamerani o\'zgartirish</string>
+    <string name="screen_share">Ekranni ulashish</string>
+    <string name="blur_background">Fonni xiralash</string>
+    <string name="call_history">Qo\'ng\'iroqlar tarixi</string>
+    <string name="no_call_history">Qo\'ng\'iroqlar tarixi yo\'q</string>
+    <string name="clear_call_history">Tarixni tozalash</string>
+
+    <!-- Stories -->
+    <string name="story">Hikoya</string>
+    <string name="create_story">Hikoya yaratish</string>
+    <string name="photo_story">Rasmli hikoya</string>
+    <string name="video_story">Videoli hikoya</string>
+    <string name="text_story">Matnli hikoya</string>
+    <string name="story_text_hint">Biror narsa yozing…</string>
+    <string name="add_sticker">Stiker qo\'shish</string>
+    <string name="add_text">Matn qo\'shish</string>
+    <string name="draw">Chizish</string>
+    <string name="story_privacy">Kimlar ko\'ra oladi</string>
+    <string name="everyone">Hamma</string>
+    <string name="my_contacts">Kontaktlarim</string>
+    <string name="close_friends">Yaqin do\'stlar</string>
+    <string name="exclude">Chiqarib tashlash</string>
+    <string name="story_viewers">Ko\'rganlar</string>
+    <string name="story_expires">24 soatdan so\'ng o\'chadi</string>
+    <string name="story_archived">Arxivlangan hikoyalar</string>
+    <string name="highlights">Muhim lahzalar</string>
+    <string name="add_to_highlights">Muhim lahzalarga qo\'shish</string>
+    <string name="mute_story">Hikoyalarni ovozsiz qilish</string>
+
+    <!-- Groups & Channels -->
+    <string name="group">Guruh</string>
+    <string name="channel">Kanal</string>
+    <string name="members">Ishtirokchilar</string>
+    <string name="subscribers">Obunachillar</string>
+    <string name="admins">Adminlar</string>
+    <string name="add_members">Ishtirokchi qo\'shish</string>
+    <string name="invite_link">Taklif havolasi</string>
+    <string name="copy_link">Havolani nusxa olish</string>
+    <string name="reset_link">Havolani yangilash</string>
+    <string name="group_settings">Guruh sozlamalari</string>
+    <string name="slow_mode">Sekin rejim</string>
+    <string name="join_requests">Qo\'shilish so\'rovlari</string>
+    <string name="ban_member">Taqiqlash</string>
+    <string name="kick_member">Chiqarish</string>
+    <string name="restrict_member">Cheklash</string>
+    <string name="make_admin">Admin qilish</string>
+    <string name="transfer_ownership">Egaliklarni topshirish</string>
+
+    <!-- Discover / Search -->
+    <string name="discover">Izlash</string>
+    <string name="search">Qidirish</string>
+    <string name="search_hint">Xabarlar, foydalanuvchilar, guruhlar…</string>
+    <string name="search_results">Natijalar</string>
+    <string name="no_results">Hech narsa topilmadi</string>
+    <string name="people">Odamlar</string>
+    <string name="groups_label">Guruhlar</string>
+    <string name="channels_label">Kanallar</string>
+    <string name="bots_label">Botlar</string>
+    <string name="mini_apps">Mini Ilovalar</string>
+    <string name="featured">Tavsiya etiladi</string>
+    <string name="new_arrivals">Yangiliklar</string>
+    <string name="top_charts">Eng ko\'p ishlatiladigan</string>
+    <string name="categories">Kategoriyalar</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_messages">Xabarlar</string>
+    <string name="notification_channel_calls">Qo\'ng\'iroqlar</string>
+    <string name="notification_channel_group">Guruh xabarlari</string>
+    <string name="notification_channel_mentions">Eslatmalar</string>
+    <string name="notification_channel_stories">Hikoyalar</string>
+    <string name="notification_channel_bots">Botlar</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile">Profil</string>
+    <string name="edit_profile">Profilni tahrirlash</string>
+    <string name="change_photo">Rasmni o\'zgartirish</string>
+    <string name="remove_photo">Rasmni o\'chirish</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="notifications_settings">Bildirishnomalar</string>
+    <string name="privacy_security">Maxfiylik va xavfsizlik</string>
+    <string name="appearance">Ko\'rinish</string>
+    <string name="language">Til</string>
+    <string name="data_storage">Ma\'lumotlar va saqlash</string>
+    <string name="devices">Qurilmalar</string>
+    <string name="premium">UzGram Premium</string>
+    <string name="help_support">Yordam va qo\'llab-quvvatlash</string>
+    <string name="about">Dastur haqida</string>
+    <string name="two_step_verification">Ikki bosqichli tasdiqlash</string>
+    <string name="active_sessions">Faol seanslar</string>
+    <string name="screen_lock">Ekran qulfi</string>
+    <string name="passcode">Parol kodi</string>
+    <string name="biometric">Biometrik</string>
+    <string name="auto_lock">Avtomatik qulflash</string>
+    <string name="dark_mode">Qorong\'u rejim</string>
+    <string name="light_mode">Yorug\' rejim</string>
+    <string name="system_theme">Tizim mavzusi</string>
+    <string name="amoled_mode">AMOLED rejim</string>
+    <string name="font_size">Shrift o\'lchami</string>
+    <string name="chat_wallpaper">Suhbat foni</string>
+    <string name="message_bubbles">Xabar pufakchalari</string>
+    <string name="account_language">Uz</string>
+    <string name="delete_account">Hisobni o\'chirish</string>
+    <string name="delete_account_warning">Bu amalni qaytarib bo\'lmaydi</string>
+    <string name="sign_out_confirm">Chiqishni tasdiqlaysizmi?</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="confirm">Tasdiqlash</string>
+    <string name="save">Saqlash</string>
+    <string name="done">Tayyor</string>
+    <string name="ok">OK</string>
+    <string name="no">Yo\'q</string>
+    <string name="yes">Ha</string>
+    <string name="back">Orqaga</string>
+    <string name="close">Yopish</string>
+
+    <!-- Errors -->
+    <string name="error_network">Internet aloqasi yo\'q</string>
+    <string name="error_server">Server xatosi. Qayta urinib ko\'ring</string>
+    <string name="error_unknown">Xatolik yuz berdi</string>
+    <string name="error_session_expired">Seans tugagan. Qayta kiring</string>
+    <string name="error_email_taken">Bu email allaqachon ro\'yxatdan o\'tgan</string>
+    <string name="error_username_taken">Bu foydalanuvchi nomi band</string>
+    <string name="error_invalid_credentials">Email yoki parol noto\'g\'ri</string>
+    <string name="error_weak_password">Parol kamida 8 ta belgi, katta harf, kichik harf va raqam bo\'lishi kerak</string>
+    <string name="error_invalid_email">Noto\'g\'ri email manzil</string>
+    <string name="error_invalid_username">Foydalanuvchi nomi 5-32 belgi, faqat harf, raqam va _ bo\'lishi mumkin</string>
+    <string name="error_file_too_large">Fayl hajmi juda katta</string>
+    <string name="error_not_supported">Bu format qo\'llab-quvvatlanmaydi</string>
+
+    <!-- Premium -->
+    <string name="premium_title">UzGram Premium</string>
+    <string name="premium_subtitle">Eng yaxshi tajribani oling</string>
+    <string name="premium_animated_avatar">Jonli profil rasmi</string>
+    <string name="premium_animated_stickers">Jonli stikerlar</string>
+    <string name="premium_faster_upload">Tezroq yuklash</string>
+    <string name="premium_larger_files">Katta fayllar (4 GB gacha)</string>
+    <string name="premium_voice_to_text">Ovozni matnga aylantirish</string>
+    <string name="premium_badge">Premium nishon</string>
+    <string name="subscribe">Obuna bo\'lish</string>
+    <string name="restore_purchase">Xaridni tiklash</string>
+
+    <!-- Bots & Mini Apps -->
+    <string name="bot">Bot</string>
+    <string name="start_bot">Boshlash</string>
+    <string name="mini_app">Mini Ilova</string>
+    <string name="open_app">Ochish</string>
+    <string name="install_app">O\'rnatish</string>
+    <string name="uninstall_app">O\'chirish</string>
+    <string name="rate_app">Baholash</string>
+    <string name="share_app">Ulashish</string>
+    <string name="report_app">Shikoyat qilish</string>
+    <string name="app_info">Ilova haqida</string>
+    <string name="developer">Ishlab chiquvchi</string>
+    <string name="version">Versiya</string>
+    <string name="last_updated">Oxirgi yangilanish</string>
+    <string name="permissions_required">Kerakli ruxsatlar</string>
+    <string name="close_app_confirm">Ilovani yopishni xohlaysizmi?</string>
+    <string name="closing_confirmation">Yopilishni tasdiqlash</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera">Kamera</string>
+    <string name="permission_microphone">Mikrofon</string>
+    <string name="permission_storage">Xotira</string>
+    <string name="permission_location">Joylashuv</string>
+    <string name="permission_contacts">Kontaktlar</string>
+    <string name="permission_notifications">Bildirishnomalar</string>
+    <string name="permission_required_title">Ruxsat kerak</string>
+    <string name="permission_camera_rationale">Rasm va video yuborish uchun kameraga ruxsat kerak</string>
+    <string name="permission_mic_rationale">Ovozli xabar va qo\'ng\'iroqlar uchun mikrofonga ruxsat kerak</string>
+    <string name="grant_permission">Ruxsat berish</string>
+    <string name="deny">Rad etish</string>
+
+    <!-- Formatting -->
+    <string name="format_bold">Qalin</string>
+    <string name="format_italic">Kursiv</string>
+    <string name="format_underline">Tagiga chizish</string>
+    <string name="format_strikethrough">Kesib o\'tish</string>
+    <string name="format_code">Kod</string>
+    <string name="format_quote">Iqtibos</string>
+    <string name="format_link">Havola</string>
+    <string name="format_spoiler">Yashirish</string>
+</resources>
